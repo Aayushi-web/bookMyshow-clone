@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: rgb(13, 13, 14);
+    max-width: 100vw;
+    height: 18vh;
+}
+.nav{
+    display: flex;
+}
+.city-sign{
+margin-left: 620px;
+    display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.city-sign p{
+    margin-right: 2rem;
+}
+.city-sign i{
+    margin-left: 2rem;
+}
+i{
+    color:white;
+}
+.logo-search input.txt{
+    width: 323px;
+    height: 37px;
+    margin: 20px;
+}
+img.img{
+    width: 13vw;
+}
+button.btn{
+    width: 112px;
+    height: 37px;
+}
+p.city{
+    color: wheat;
+}
+.logo-search i{
+    margin-left: 2px;
+}
