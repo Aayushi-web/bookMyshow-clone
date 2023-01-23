@@ -5,7 +5,7 @@
 header{
     background: rgb(13, 13, 14);
     max-width: 100vw;
-    height: 10vh;
+    height: 12vh;
 }
 .nav{
     display: flex;
@@ -46,21 +46,36 @@ p.city{
 .below{
     display: flex;
     background: grey;
+   margin-bottom: 20px;
+   height: 9vh;
 }
 .category1 ul{
     display: flex;
     margin-left: 20px;
+   margin-top: 25px;
 }
 .category1 ul li{
     list-style: none;
     margin-left: 20px;
+    color: rgb(204, 210, 215);
+    
+}
+.category1 ul li:hover{
+    cursor: pointer;
+    color: aliceblue;
 }
 .category2 ul{
     display: flex;
     margin-left: 700px;
+    margin-top: 25px;
 
 }
 .category2 ul li{
     list-style: none;
     margin-left: 15px;
+    color: rgb(204, 210, 215);
+}
+.category2 ul li:hover{
+    cursor: pointer;
+    color: aliceblue;
 }
